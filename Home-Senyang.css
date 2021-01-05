@@ -1,0 +1,505 @@
+body{
+	margin: 0 auto;
+	position: absolute;
+	overflow-X: hidden;
+	}
+::-webkit-scrollbar{
+	width: 15px;
+	background-color: white;
+	box-shadow: inset 0 0 3px black;
+}
+::-webkit-scrollbar-thumb{
+	border-radius: 10%;
+	background-color: #EC6911;
+	box-shadow: inset 0 0 3px black;
+}
+::-webkit-scrollbar-track{
+	border-radius: 20%;
+	background-color: white;
+	box-shadow: inset 0 0 3px black;
+
+
+}
+#Container{
+	background-color: #5A5A5A;
+	width: 100%;
+	height: 90px;
+    font-size: 30px;
+    font-family: bahnschrift;
+    position: fixed;
+    text-align: center;
+   background: linear-gradient(50deg, #5A5A5A, silver, #5A5A5A, #5A5A5A);
+   filter: drop-shadow(2px 3px 3px black);
+   
+}
+#Logo{
+	float: left;
+	position: fixed;
+	-webkit-animation: floating-animation 6s ease-in-out infinite;
+   -o-animation: floating-animation 6s ease-in-out infinite;
+ animation: floating-animation 6s ease-in-out infinite;
+
+}
+@keyframes floating-animation{
+0%{
+-webkit-transform: translateY(0); 
+-moz-transform: translateY(0); 
+-ms-transform: translateY(0); 
+-o-transform: translateY(0); 
+transform: translateY(0); 
+}
+50%{
+	-webkit-transform: translateY(-10px); 
+-moz-transform: translateY(-10px); 
+-ms-transform: translateY(-10px); 
+-o-transform: translateY(-10px); 
+transform: translateY(-10px); 
+}
+100%
+-webkit-transform: translateY(-20px); 
+-moz-transform: translateY(-20px); 
+-ms-transform: translateY(-20px); 
+-o-transform: translateY(-20px); 
+transform: translateY(-20px); 
+}
+#Header2 img{
+	right: -18px;
+	position: fixed;
+	filter: drop-shadow(6px 2px 2px black);
+}
+.Menu:after{
+content: '';
+	display: block;	
+	width: 0;
+	height: 2px;
+	background: white;
+	transition: width .10s
+}
+.Menu:hover:after{
+	width: 100%;
+	transition: width .10s;
+
+
+}
+li{
+	display: inline-block;
+   
+}
+li a {
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	padding: 60px;
+	padding-top: 25px;
+	font-family: Road Rage;
+	color: #D01A1A;
+	font-size: 40px;
+	font-weight: bolder;
+	-webkit-text-stroke:0.3px black;
+
+}
+
+li a:hover{
+    color: white;
+    transition: 0.4s;
+
+}
+.Header p{
+	font-family: tahoma;
+	font-size: 200px;
+	margin-top: -550px;
+	text-align: center;
+	color: white;
+	letter-spacing: 10px;
+	font-weight: bolder;
+	text-shadow: 5px 5px 5px black;
+}
+.Header img{
+border-color: black;
+border-width: 100px;
+}
+article{
+	background-color: lightsalmon;
+	margin-top: -250px;
+} 
+.Body1 h3 {
+	font-size: 100px;
+	transform: translateY(75%);
+	color: maroon;
+	font-family: fantasy;
+	-webkit-text-stroke: 1.5px black;
+
+}
+.Body1 p{
+font-size: 40px;
+font-weight: lighter;
+letter-spacing: 2px;
+color: floralwhite;
+
+	
+}
+.Body1{
+	
+	font-family: sans-serif;
+}
+.Body2 img{
+	filter: drop-shadow(2px 2px 2px black);
+	position: relative;
+	z-index: -999999;
+	margin-left: 15px;
+	border-radius: 50%;
+    transform-style: preserve-3d;
+transition: 2s; 
+}
+.pic1 img{
+	position: relative;
+	z-index: -999999;
+	margin-left: 10px;
+	border-radius: 50%;
+
+
+
+}
+.pic4{
+	position: relative;
+	z-index: -999999;
+	margin-left: 30px;
+
+}
+.pic4 img{
+	border-radius: 10%;
+	filter: drop-shadow(2px 2px 2px black);
+   z-index: -999999;
+   position: relative;
+   
+ 
+}
+.Body3{
+	color: black;
+	font-family: tahoma;
+	font-size: 35px;
+	color: white;
+	letter-spacing: 1px;
+
+}
+section{
+	 padding: 100px;
+	 background-color: sienna;
+	 position: relative;
+	 z-index: -9999999;
+	 background: linear-gradient(50deg, maroon, sienna,chocolate);
+margin-top: -150px;
+
+
+}
+.Body3{
+	
+
+
+
+}
+footer{
+	font-family: bahnschrift;
+	font-size: 12px;
+	font-weight: lighter;
+	color: dimgray;
+	text-align: center;
+}
+a{
+	color: dimgray;
+	text-decoration: none;
+}
+a:hover{
+	color: #B22222;
+}
+
+.Counter {
+	
+   font-family: bahnschrift;
+}
+.Terms a{
+	text-decoration: none;
+}
+
+div#countdown {
+   width: 100%;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-flow: row nowrap;
+   flex-flow: row nowrap;
+   margin-top: 10px;
+
+}
+
+div#countdown div {
+   display: block;
+   text-align: center;
+   width: 100%;
+   line-height: 1.5em;
+   font-size: 0.5em;
+   font-family: segment14, sans-serif;
+   color: white;
+   background: gray;
+   margin: 0px 1px;
+   padding: 5px;
+   color: white;
+}
+
+div#countdown div span {
+   font-size: 4em;   
+}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* START OF MEDIA QUERIES */
+@media screen 
+and (max-width : 1000px)
+{
+	body{
+	margin: 0 auto;
+	position: absolute;
+	overflow-X: hidden;
+	}
+::-webkit-scrollbar{
+	width: 15px;
+	background-color: white;
+	box-shadow: inset 0 0 3px black;
+}
+::-webkit-scrollbar-thumb{
+	border-radius: 10%;
+	background-color: #EC6911;
+	box-shadow: inset 0 0 3px black;
+}
+::-webkit-scrollbar-track{
+	border-radius: 20%;
+	background-color: white;
+	box-shadow: inset 0 0 3px black;
+
+
+}
+#Container{
+	background-color: #5A5A5A;
+	width: 100%;
+	height: 90px;
+    font-size: 30px;
+    font-family: bahnschrift;
+    position: fixed;
+    text-align: center;
+   background: linear-gradient(50deg, #5A5A5A, silver, #5A5A5A, #5A5A5A);
+   filter: drop-shadow(2px 3px 3px black);
+   
+}
+#Logo{
+	float: left;
+	position: fixed;
+	-webkit-animation: floating-animation 6s ease-in-out infinite;
+   -o-animation: floating-animation 6s ease-in-out infinite;
+ animation: floating-animation 6s ease-in-out infinite;
+
+}
+@keyframes floating-animation{
+0%{
+-webkit-transform: translateY(0); 
+-moz-transform: translateY(0); 
+-ms-transform: translateY(0); 
+-o-transform: translateY(0); 
+transform: translateY(0); 
+}
+50%{
+	-webkit-transform: translateY(-10px); 
+-moz-transform: translateY(-10px); 
+-ms-transform: translateY(-10px); 
+-o-transform: translateY(-10px); 
+transform: translateY(-10px); 
+}
+100%
+-webkit-transform: translateY(-20px); 
+-moz-transform: translateY(-20px); 
+-ms-transform: translateY(-20px); 
+-o-transform: translateY(-20px); 
+transform: translateY(-20px); 
+}
+#Header2 img{
+	right: -18px;
+	position: fixed;
+	filter: drop-shadow(6px 2px 2px black);
+}
+.Menu:after{
+content: '';
+	display: block;	
+	width: 0;
+	height: 2px;
+	background: white;
+	transition: width .10s
+}
+.Menu:hover:after{
+	width: 100%;
+	transition: width .10s;
+
+
+}
+li{
+	display: inline-block;
+   
+}
+li a {
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	padding: 60px;
+	padding-top: 25px;
+	font-family: Road Rage;
+	color: darkred;
+	font-weight: bolder;
+	-webkit-text-stroke:0.3px black;
+
+}
+
+li a:hover{
+    color: white;
+    transition: 0.4s;
+
+}
+.Header p{
+	font-family: tahoma;
+	font-size: 200px;
+	margin-top: -700px;
+	text-align: center;
+	color: white;
+	letter-spacing: 10px;
+	font-weight: bolder;
+	text-shadow: 5px 5px 5px black;
+}
+.Header img{
+border-color: black;
+border-width: 100px;
+}
+article{
+	background-color: lightsalmon;
+	margin-top: -250px;
+}
+.Body1 h3 {
+	font-size: 90px;
+	transform: translateY(75%);
+	color: maroon;
+	font-family: fantasy;
+	-webkit-text-stroke: 1.5px black;
+}
+.Body1 p{
+font-size: 40px;
+font-weight: lighter;
+letter-spacing: 2px;
+color: floralwhite;
+
+	
+}
+.Body1{
+	
+	font-family: sans-serif;
+}
+.Body2 img{
+	filter: drop-shadow(2px 2px 2px black);
+	position: relative;
+	z-index: -999999;
+	margin-left: 15px;
+	border-radius: 50%;
+    transform-style: preserve-3d;
+transition: 2s; 
+
+}
+.pic1 img{
+	position: relative;
+	z-index: -999999;
+	margin-left: 10px;
+	border-radius: 50%;
+transform-style: preserve-3d;
+transition: 2s; 
+
+
+}
+.pic4{
+	position: relative;
+	z-index: -999999;
+	margin-left: 30px;
+
+}
+.pic4 img{
+	border-radius: 10%;
+	filter: drop-shadow(2px 2px 2px black);
+   z-index: -999999;
+   position: relative;
+   
+   
+ 
+}
+.Body3{
+	color: black;
+	font-family: tahoma;
+	font-size: 35px;
+	color: white;
+	letter-spacing: 1px;
+
+}
+section{
+	 padding: 100px;
+	 background-color: sienna;
+	 position: relative;
+	 z-index: -9999999;
+	 background: linear-gradient(50deg, maroon, sienna,chocolate);
+margin-top: -150px;
+
+
+}
+.Body3{
+	
+
+
+
+}
+footer{
+	font-family: bahnschrift;
+	font-size: 12px;
+	font-weight: lighter;
+	color: dimgray;
+	text-align: center;
+}
+a{
+	color: dimgray;
+	text-decoration: none;
+}
+a:hover{
+	color: #B22222;
+
+}
+
+.Counter {
+   font-family: bahnschrift;
+   font-size: 10px;
+   font-weight: bolder;
+}
